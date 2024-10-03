@@ -15,7 +15,7 @@ function guardar(){
       redirect: "follow"
     };
 
-    fetch("http://localhost:6500/estudiantes", requestOptions)
+    fetch("http://localhost:6500/", requestOptions)
       .then((response) => response.text())
       .then((result) => console.log(result))
       .catch((error) => console.error(error));

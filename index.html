@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Adicionar Estudiantes</h1>
+    <div>
+        <form id="adicionarEstudiante">
+            <div>
+                <label for="dni">Documento de Identidad:</label><br>
+                <input type="text" id="dni" placeHolder=""><br><br>
+                <label for="nombre">Nombre completo del Estudiante:</label><br>
+                <input type="text" id="nombre" placeHolder=""><br><br>
+                <!BOTON ACEPTAR EN ADICIONAR ESTUDIANTE-->
+                    <input type="submit" onclick="guardar()" id="btn-estudiantes" value="Enviar">
+            </div>
+        </form>
+    </div>
+
+    <h1>Adicionar Curso</h1>
+    <div>
+        <form id="cursos">
+            <label for="adicionarCurso">Codigo del Curso:</label><br>
+            <input type=" text" id="adicionarCurso" placeholder=""><br><br>
+            <label for="nombreCurso">Nombre del curso:</label><br>
+            <input type="text" id="nombreCurso" placeholder=""><br><br>
+            <!BOTON ACEPTAR EN ADICIONAR CURSO-->
+                <input type="submit" onclick="guardar()" id="btn-cursos" value="Enviar">
+        </form>
+    </div>
+
+    <h1>Sesiones</h1>
+    <div>
+        <form id="sesiones">
+            <label for="idhi">Hora de Inicio:</label><br>
+            <input type="text" id="idhi" placeHolder=""><br><br>
+            <label for="dnihf">Hora Final:</label><br>
+            <input type="text" id="dnihf" placeHolder=""> <br> <br>
+            <!BOTON ACEPTAR EN GENERAL-->
+                <input type="submit" onclick="guardar()" id="btn-sesiones" value="Enviar">
+        </form>
+    </div>
+
+    <script type="text/javascript" src="./Frontend/script.js"></script>
+</body>
+</html>
